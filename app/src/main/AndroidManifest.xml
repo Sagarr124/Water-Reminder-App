@@ -28,7 +28,8 @@
         <activity
                 android:name="sagar.mad.project.waterReminder.MainActivity"
                 android:theme="@style/MainTheme"
-                android:screenOrientation="portrait">
+                android:screenOrientation="portrait"
+                android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
@@ -37,7 +38,8 @@
         </activity>
 
         <receiver android:name="sagar.mad.project.waterReminder.receivers.NotifierReceiver"/>
-        <receiver android:name="sagar.mad.project.waterReminder.receivers.BootReceiver">
+        <receiver android:name="sagar.mad.project.waterReminder.receivers.BootReceiver"
+                android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.BOOT_COMPLETED"/>
             </intent-filter>
