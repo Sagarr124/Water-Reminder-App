@@ -81,7 +81,8 @@
                 android:inputType="numberSigned"
                 android:maxLength="3"
                 android:paddingStart="10dp"
-                android:paddingBottom="10dp" />
+                android:paddingBottom="10dp"
+                tools:ignore="TouchTargetSizeCheck" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
@@ -105,7 +106,8 @@
                 android:hint="@string/wakeup_hint"
                 android:inputType="numberSigned"
                 android:paddingStart="10dp"
-                android:paddingBottom="10dp" />
+                android:paddingBottom="10dp"
+                tools:ignore="TouchTargetSizeCheck" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
@@ -165,7 +167,8 @@
                 android:hint="@string/custom_intake_hint"
                 android:inputType="numberSigned"
                 android:paddingStart="10dp"
-                android:paddingBottom="10dp" />
+                android:paddingBottom="10dp"
+                tools:ignore="TouchTargetSizeCheck" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
@@ -187,7 +190,8 @@
                 android:hint="@string/notif_messsage_hint"
                 android:inputType="text"
                 android:paddingStart="10dp"
-                android:paddingBottom="10dp" />
+                android:paddingBottom="10dp"
+                tools:ignore="TouchTargetSizeCheck" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
@@ -211,7 +215,8 @@
                 android:hint="@string/notif_tone_hint"
                 android:inputType="text"
                 android:paddingStart="10dp"
-                android:paddingBottom="10dp" />
+                android:paddingBottom="10dp"
+                tools:ignore="TouchTargetSizeCheck" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <TextView
